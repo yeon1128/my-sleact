@@ -58,7 +58,7 @@ class GuGuDanClass extends Component<{}, State> {
             type="number"
             ref={this.onRefInput}
             value={this.state.value}
-            onChange={(e) => this.onChange}
+            onChange={this.onChange}
           />
           <button>입력</button>
         </form>
